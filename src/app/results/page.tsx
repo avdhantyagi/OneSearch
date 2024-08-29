@@ -6,8 +6,11 @@ import React from 'react';
 
 export default function Page() {
     const searchParams = useSearchParams()
- 
     const query = searchParams.get('query')
    
-    return <>Search: {query}</>
+    return (
+    <>
+        Search: {query}
+    </>
+    )
 }
