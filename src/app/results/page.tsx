@@ -19,7 +19,7 @@ export default function Page() {
             <Category type='Streaming'/>
         </div>
         <div className='grid w-[300px] sm:grid-cols-1 sm:min-w-[400px] md:min-w-[600px] lg:w-[800px] lg:grid:cols-2 gap-4 md:grid-cols-2 p-4 min-h-[50vh]'>
-            <Card />
+            <Card type='Google' icon='public/vercel.svg'/>
             <Card />
             <Card />
             <Card />
