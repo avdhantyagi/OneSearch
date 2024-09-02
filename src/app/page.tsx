@@ -8,7 +8,7 @@ export default function Page() {
   const [query, setQuery] = useState('');
   
   return (
-    <div className='min-h-screen bg-gray-950 flex flex-col justify-center mx-auto items-center'>
+    <div className='min-h-screen flex flex-col justify-center mx-auto items-center'>
       <SearchBar setQuery = {setQuery} query={query}/>
     </div>
   )
